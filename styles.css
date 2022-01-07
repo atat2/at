@@ -1,0 +1,28 @@
+h1 {
+    background-color: #4639DB;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#titleText {
+    background-color: #DB236A;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 75%;
+    margin: auto;
+}
+
+.container {
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.nav {
+    background-color: #9ED9D1;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/*Pallete idea: 4639DB, DB236A, 8F2B51, 9ED9D1, 178F7E*/
