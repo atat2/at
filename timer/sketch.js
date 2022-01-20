@@ -73,7 +73,8 @@ function timeConvert() {
   dis3 = floor(h);
   
   //Updates display
-  let display = dis3 + ":" + extraZero + dis2 + ":" + dis1 + "."+ timeAmount % 1000;
+  //let display = dis3 + ":" + extraZero + dis2 + ":" + dis1 + "."+ timeAmount % 1000;
+  let display = dis3 + ":" + extraZero + dis2 + ":" + dis1;
 
   return display;
 }
