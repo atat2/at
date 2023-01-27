@@ -1,0 +1,30 @@
+(Required) Two kinds of objects created for this assignment:
+1. TallBuilding-1 - Made from basic geometry
+2. Bus - Made from basic geometry
+
+(Required) Five other kinds of objects that you created (possibly in previous assignments):
+3. Hall-1 - Made from basic geometry
+4. BladelessHelicopter - loaded from obj file (self made), attribution below
+5. Tree_Round - loaded from obj file (self made), attribution below
+6. Hill - Made from basic geometry
+7. Building1-1 - uses own code from wb08 (08-06-buildings.js)
+
+(Optional) Backup Objects (more objects that you created, in case the ones above don't count):
+- Truck-0 - created from my own code from wb07 (07-09-constructionobjects.js)
+- Mixer-0 - created from my own code from wb07 (07-09-constructionobjects.js)
+- Tree_Blocky - code from wb08 (08-06-buildings.js)
+
+At least on of each type of object:
+Building/structure: TallBuilding-1
+Vehicle: Bus
+Natural Element: Tree_Round
+
+Object loaded from a model file:
+Model: Tree_Blocky
+
+An object with a shader that you wrote:
+ShaderObj: Tree_Round
+
+Other Objects that you would like to note:
+Lake - Made from basic geometry
+Hall-2 - Made from basic geometry

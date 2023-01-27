@@ -1,0 +1,8 @@
+List all attributions here, this include "self-attributions":
+
+building.js - uses own code from wb08 (08-06-buildings.js)
+Tree_Blocky is imported from a 3d model (treeModel.obj and treeMaterial.mtl). The model was self made in 3d modeling software (Rhino) (Minecraft tree was used as visual reference)
+BladelessHelicopter is imported from a 3d model (helicopter.obj). The model was self made in 3d modeling software (Rhino).
+construction.js - Truck and mixer created from my own code from wb07 (07-09-constructionobjects.js)
+Tree_Round - code from wb08 (08-06-buildings.js)
+texture.png - self made with painting software

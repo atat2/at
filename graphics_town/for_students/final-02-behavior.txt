@@ -1,0 +1,13 @@
+Three different behaviors that you made:
+1. Tree_Round - Moves in the wind and changes leaf color
+2. Bus - Moves around
+3. Mixer-0 - Spins
+
+One behavior that is not simple:
+Not simple: BladelessHelicopter - Orbits building and spins
+
+Animated Articulated Figure:
+Articulated: Truck-0 - Vehicle moves while backside rotates
+
+Other Behaviors that you made: (backup in case something above doesn't count)
+- Lake - Changes color and waves back and forth
