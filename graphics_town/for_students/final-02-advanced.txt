@@ -1,6 +1,0 @@
-Advanced Thing: 
-5. Animated Shader Effect: Tree_Round sways like it's windy
-
-9. Water or Cloth: Lake waves backs and forth
-
-3. Complex Object: BladelessHelicopter and Tree_Blocky: I made and import the obj files on my own with 3D modeling software (Rhino)

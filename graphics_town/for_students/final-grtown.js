@@ -18,7 +18,7 @@
 import { GrWorld } from "../libs/CS559-Framework/GrWorld.js";
 import { WorldUI } from "../libs/CS559-Framework/WorldUI.js";
 
-//import {main} from "../examples/main.js";
+import {main} from "../for_students/main.js";
 
 /**m
  * The Graphics Town Main -
@@ -35,13 +35,16 @@ let world = new GrWorld({
 // put stuff into the world
 // this calls the example code (that puts a lot of objects into the world)
 // you can look at it for reference, but do not use it in your assignment
-//main(world);
+main(world);
 
 // while making your objects, be sure to identify some of them as "highlighted"
 
 ///////////////////////////////////////////////////////////////
 // because I did not store the objects I want to highlight in variables, I need to look them up by name
 // This code is included since it might be useful if you want to highlight your objects here
+
+
+
 function highlight(obName) {
     const toHighlight = world.objects.find(ob => ob.name === obName);
     if (toHighlight) {
@@ -56,10 +59,16 @@ function highlight(obName) {
 //highlight("Track Car");
 //highlight("MorphTest");
 
+
+
 highlight("Building1-1");
+
+
 highlight("TallBuilding-1");
 highlight("Hall-1");
 highlight("Hall-2");
+
+
 
 highlight("Truck-0");
 highlight("Mixer-0");
@@ -72,6 +81,7 @@ highlight("Tree_Blocky");
 
 highlight("Bus");
 highlight("BladelessHelicopter");
+
 
 ///////////////////////////////////////////////////////////////
 // build and run the UI
