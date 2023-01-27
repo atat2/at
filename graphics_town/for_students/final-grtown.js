@@ -18,7 +18,7 @@
 import { GrWorld } from "../libs/CS559-Framework/GrWorld.js";
 import { WorldUI } from "../libs/CS559-Framework/WorldUI.js";
 
-import {main} from "../examples/main.js";
+//import {main} from "../examples/main.js";
 
 /**m
  * The Graphics Town Main -
