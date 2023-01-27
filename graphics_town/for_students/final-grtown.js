@@ -35,7 +35,7 @@ let world = new GrWorld({
 // put stuff into the world
 // this calls the example code (that puts a lot of objects into the world)
 // you can look at it for reference, but do not use it in your assignment
-main(world);
+//main(world);
 
 // while making your objects, be sure to identify some of them as "highlighted"
 
