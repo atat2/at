@@ -1,3 +1,8 @@
+body {
+    background-color: white;
+    color: black;
+}
+
 h1 {
     background-color: #4639DB;
     border-radius: 5px;
@@ -167,4 +172,73 @@ h2 {
     width: 55px;
     height: 55px;
     animation-duration: 10s;
+}
+
+.night-mode-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+body.night-mode {
+    background-color: #202020;
+    color: white;
+}
+
+button.night-mode {
+    background-color: #333333;
+    color: white;
+}
+
+body.night-mode::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: transparent;
+    animation: twinkling 2s infinite;
+    pointer-events: none;
+}
+
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    display: none;
+}
+
+.stars .star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    animation: sparkle 2s infinite ease-in-out;
+    opacity: 0;
+}
+
+@keyframes sparkle {
+    0%, 100% {opacity: 0;}
+    50% {opacity: 1;}
+}
+
+@keyframes twinkling {
+    0% {opacity: 0.9;}
+    50% {opacity: 0.7;}
+    100% {opacity: 0.9;}
+}
+
+body.night-mode .stars {
+    display: block;
+    z-index: 1;
+    pointer-events: none;
+    display: block;
 }
